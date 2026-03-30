@@ -97,14 +97,13 @@ cd REPOSITORY
 
 
 
-## 💡 팁
+## 팁
 
-* README.md는 프로젝트의 첫인상입니다
-* 라이선스는 프로젝트 성격에 맞게 선택하세요
-* API 키는 절대 업로드하지 마세요 (.env 사용)
+
+* API 키 절대 업로드 금지
 
 ---
 
-## 📄 참고
+## 참고
 
 * GitHub 공식 문서: https://docs.github.com/
