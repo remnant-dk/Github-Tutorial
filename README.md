@@ -4,7 +4,6 @@ Github_Tutorial - 깃허브 기초
 
 # 새 리포지리 생성
 
----
 
 ## 1. GitHub 접속
 
