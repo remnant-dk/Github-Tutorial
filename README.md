@@ -9,14 +9,14 @@ Github_Tutorial - 깃허브 기초
 
 * GitHub 홈페이지에 접속 후 로그인.
 
----
+
 
 ## 2. 새 리포지토리 생성
 
 1. 우측 상단의 **+ (플러스 버튼)** 클릭
 2. **"New repository"** 선택
 
----
+
 
 ## 3. 기본 정보 입력(중요)
 
@@ -33,7 +33,7 @@ Github_Tutorial - 깃허브 기초
 * **Public**: 누구나 볼 수 있음
 * **Private**: 본인만 접근 가능
 
----
+
 
 ## 4. 초기 설정 (중요)
 
@@ -49,13 +49,13 @@ Github_Tutorial - 깃허브 기초
 
 * 라이선스 선택 (예: MIT 등)
 
----
+
 
 ## 5. 생성 완료
 
 * **"Create repository"** 버튼 클릭
 
----
+
 
 ## 6. 로컬에서 연결 (선택)
 
@@ -70,7 +70,7 @@ git remote add origin https://github.com/USERNAME/REPOSITORY.git
 git push -u origin main
 ```
 
----
+
 
 ## 7. 클론해서 시작하기
 
@@ -79,7 +79,7 @@ git clone https://github.com/USERNAME/REPOSITORY.git
 cd REPOSITORY
 ```
 
----
+
 
 ## 💡 팁
 
