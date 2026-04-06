@@ -73,25 +73,24 @@ Github_Tutorial - 깃허브 기초
 
 
 
-## 6. 로컬에서 연결 (선택)
+## 6. 깃허브에 내 프로젝트 커밋하기
 
-이미 로컬 프로젝트가 있다면:
 
 ```bash
 git init
 git add .
 git commit -m "initial commit"
 git branch -M main
-git remote add origin https://github.com/USERNAME/REPOSITORY.git
+git remote add origin https://github.com/[사용자 이름 or Remnant]/[레포지토리 이름].git
 git push -u origin main
 ```
 
 
 
-## 7. 클론해서 시작하기
+## 7. 깃허브에서 프로젝트 폴더 가져오기
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
+git clone https://github.com/[사용자 이름 or Remnant]/[레포지토리 이름].git
 cd REPOSITORY
 ```
 
@@ -99,8 +98,14 @@ cd REPOSITORY
 
 ## 팁
 
+1. .gitignore
+   깃허브에 업로드하면 안되는 것들(API 키, 개인정보 등등)을 여기 저장해놓으면 깃허브에 커밋할때 자동으로 빠지게 된다
 
-* API 키 절대 업로드 금지
+2. 풀리퀘스트
+   풀리퀘는 자신의 프로젝트를 검토받을 때 유용하게 사용할 수 있다
+
+3. 머지
+   자신의 프로젝트를 저장소에 통째로 덮어씌우는 강력한 기능으로 위험할 수 있으니 간부만 사용
 
 ---
 
